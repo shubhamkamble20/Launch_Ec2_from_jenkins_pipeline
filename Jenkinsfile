@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from version control
-                git 'https://github.com/your-repo/terraform-ec2'
+                git 'https://github.com/shubhamkamble20/Launch_Ec2_from_jenkins_pipeline.git'
             }
         }
 
